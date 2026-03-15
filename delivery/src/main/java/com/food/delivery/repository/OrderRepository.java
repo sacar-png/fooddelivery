@@ -1,6 +1,6 @@
-package com.example.fooddeliveryapi.repository;
+package com.food.delivery.repository;
 
-import com.example.fooddeliveryapi.model.Order;
+import com.food.delivery.model.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OrderRepository extends JpaRepository<Order, Long> {

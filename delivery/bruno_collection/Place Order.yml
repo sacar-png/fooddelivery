@@ -1,0 +1,25 @@
+info:
+  name: Place Order
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:9097/api/orders
+  body:
+    type: json
+    data: |-
+      {
+          "customerId": 1,
+          "restaurantId": 2,
+          "total": 25.50,
+          "itemIds": [3, 4],
+          "status": "PENDING"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

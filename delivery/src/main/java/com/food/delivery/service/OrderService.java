@@ -1,7 +1,7 @@
-package com.example.fooddeliveryapi.service;
+package com.food.delivery.service;
 
-import com.example.fooddeliveryapi.model.Order;
-import com.example.fooddeliveryapi.repository.OrderRepository;
+import com.food.delivery.model.Order;
+import com.food.delivery.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
-package com.example.fooddeliveryapi.controller;
+package com.food.delivery.controller;
 
-import com.example.fooddeliveryapi.model.Order;
-import com.example.fooddeliveryapi.service.OrderService;
+import com.food.delivery.model.Order;
+import com.food.delivery.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
